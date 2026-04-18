@@ -1,5 +1,6 @@
 gpu_id: '0'
-log_wandb: False
+log_wandb: True
+wandb_project: TiM4Rec
 
 # SASRec settings
 hidden_size: 64
