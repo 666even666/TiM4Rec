@@ -20,8 +20,8 @@ save_dataset: False
 #MAX_ITEM_LIST_LENGTH: 200       # 200 for MovieLens-1M
 
 #dataset: amazon-beauty
-#dataset: kuairand
-dataset: steam
+dataset: kuairand
+# dataset: steam
 MAX_ITEM_LIST_LENGTH: 50      # 50 for Amazon datasets
 
 #USER_ID_FIELD: user_id
