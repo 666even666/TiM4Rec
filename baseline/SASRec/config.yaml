@@ -24,15 +24,15 @@ dataset: kuairand
 # dataset: steam
 MAX_ITEM_LIST_LENGTH: 50      # 50 for Amazon datasets
 
-#USER_ID_FIELD: user_id
-#ITEM_ID_FIELD: item_id
-#load_col:
-#    inter: [user_id, item_id, timestamp]
-
 USER_ID_FIELD: user_id
-ITEM_ID_FIELD: product_id
+ITEM_ID_FIELD: item_id
 load_col:
-    inter: [user_id, product_id, timestamp]
+   inter: [user_id, item_id, timestamp]
+
+# USER_ID_FIELD: user_id
+# ITEM_ID_FIELD: product_id
+# load_col:
+#     inter: [user_id, product_id, timestamp]
 
 user_inter_num_interval: "[5,inf)"
 item_inter_num_interval: "[5,inf)"
