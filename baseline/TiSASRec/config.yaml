@@ -1,7 +1,9 @@
 #gpu_id: '0, 1, 2, 3, 4, 5, 6, 7'
 gpu_id: '0'
-log_wandb: False
+log_wandb: True
+wandb_project: TiM4Rec
 #nproc: 8
+
 # TiSASRec settings
 hidden_size: 64
 inner_size: 256
@@ -18,13 +20,13 @@ time_span: 256
 save_dataset: False
 
 #dataset settings
-dataset: ml-1m
-MAX_ITEM_LIST_LENGTH: 200       # 200 for MovieLens-1M
+# dataset: ml-1m
+# MAX_ITEM_LIST_LENGTH: 200       # 200 for MovieLens-1M
 
 #dataset: amazon-beauty
-#dataset: kuairand
+dataset: kuairand
 #dataset: steam
-#MAX_ITEM_LIST_LENGTH: 50      # 50 for Amazon datasets
+MAX_ITEM_LIST_LENGTH: 50      # 50 for Amazon datasets
 
 USER_ID_FIELD: user_id
 ITEM_ID_FIELD: item_id
