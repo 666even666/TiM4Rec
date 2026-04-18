@@ -148,7 +148,7 @@ dependencies:
       - pandas==2.2.2
       - plotly==5.22.0
       - psutil==5.9.8
-      - pyg-lib==0.4.0+pt23cu118
+      # - pyg-lib==0.4.0+pt23cu118
       - pyparsing==3.1.2
       - python-dateutil==2.9.0.post0
       - pytz==2024.1
@@ -164,11 +164,11 @@ dependencies:
       - thop==0.1.1-2209072238
       - threadpoolctl==3.5.0
       - tokenizers==0.19.1
-      - torch-cluster==1.6.3+pt23cu118
-      - torch-geometric==2.5.3
-      - torch-scatter==2.1.2+pt23cu118
-      - torch-sparse==0.6.18+pt23cu118
-      - torch-spline-conv==1.2.2+pt23cu118
+      # - torch-cluster==1.6.3+pt23cu118
+      # - torch-geometric==2.5.3
+      # - torch-scatter==2.1.2+pt23cu118
+      # - torch-sparse==0.6.18+pt23cu118
+      # - torch-spline-conv==1.2.2+pt23cu118
       - tqdm==4.66.4
       - transformers==4.40.2
       - tzdata==2024.1
